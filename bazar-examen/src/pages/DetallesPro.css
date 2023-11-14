@@ -1,0 +1,28 @@
+/* ProductDetail.css */
+.product-detail-container {
+  background: linear-gradient(to bottom right, #ff0077, #f0e6d1);
+  padding: 20px;
+  color: black;
+}
+
+.discount-text {
+  color: red;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-buy {
+  background-color: #ff0077;
+  color: white;
+}
+
+/* Tu archivo de estilos CSS */
+.btn-pink {
+  background-color: #ff0077; /* Color rosa personalizado, ajusta según tus preferencias */
+  color: white; /* Color del texto en el botón */
+  /* Otros estilos según sea necesario */
+}

@@ -1,0 +1,60 @@
+
+.list-products-container {
+  background: linear-gradient(to bottom right, #ff0077, #f0e6d1);
+  padding: 20px;
+  color: black;
+}
+
+.btn-search {
+  background-color: #ff0077;
+  color: white;
+}
+
+.result-heading {
+  color: #ffffff;
+}
+
+.search-term {
+  color: #ffffff;
+}
+
+.product-box {
+  cursor: pointer;
+}
+
+.box-content {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between; /* Coloca los elementos en la fila */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+.product-box:hover .box-content {
+  transform: translateY(-5px);
+}
+
+.box-img {
+  width: 250px; /* Ajusta el tamaño de la imagen según tus preferencias */
+  height: 100%; /* Ajusta el tamaño de la imagen según tus preferencias */
+  object-fit: cover;
+  margin-right: 40px; /* Ajusta el margen entre la imagen y el contenido */
+}
+
+.box-details {
+  flex-grow: 1; /* El contenido crecerá para ocupar el espacio restante */
+}
+
+.box-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.box-text {
+  margin-bottom: 10px;
+}
+
+/* Otros estilos según tus preferencias

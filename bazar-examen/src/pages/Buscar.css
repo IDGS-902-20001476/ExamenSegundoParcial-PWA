@@ -1,0 +1,74 @@
+
+  /* Contenedor principal */
+  .container {
+    text-align: center;
+    color: rgb(244, 8, 209); /* Color del texto, ajusta según tus necesidades */
+  }
+  /* Estilo del texto debajo de la imagen */
+.text-below-image {
+    margin: 0.5em 0; /* Ajusta según tus necesidades */
+    font-family: 'Georgia', serif; /* Reemplaza 'TuFuente' con la fuente que desees */
+    color: #ff009d; /* Color dorado */
+    font-weight: bold; /* Negrita */
+    font-size: 2em; /* Tamaño de letra más grande, ajusta según tus necesidades */
+  }
+  
+  /* Estilo del título */
+  h2 {
+    font-size: 2.5em;
+  }
+  
+  /* Estilo de la caja de búsqueda y botón */
+  .input-group {
+    margin-top: 2em;
+  }
+  
+  .form-control {
+    border-radius: 0; /* Bordes cuadrados */
+  }
+  
+  .btn {
+    border-radius: 0; /* Bordes cuadrados */
+  }
+  
+  /* Estilo de la imagen encima del buscador */
+  .image-above-search {
+    width: 100%;
+    max-width: 150px; /* Ajusta según tus necesidades */
+    margin: 1em auto 0;
+    display: block;
+  }
+  
+  /* Estilo del botón de búsqueda */
+  .btn-search {
+    background-color: #ff009d; /* Color del botón, ajusta según tus necesidades */
+    color: white; /* Color del texto, ajusta según tus necesidades */
+  }
+
+  .btn-clicked {
+    background-color:  #ff009d; /* Cambia a rojo cuando se hace clic */
+    /* Otros estilos adicionales si es necesario */
+  }
+  
+  /* Estilo del texto debajo de la imagen */
+.text-below-image {
+    margin: 0.5em 0; /* Ajusta según tus necesidades */
+  }
+  
+  /* Estilo del botón de búsqueda */
+  .btn-search {
+    margin-top: 0.5em; /* Ajusta según tus necesidades */
+  }
+  /* Estilo de la lupa */
+  .btn-search::before {
+    content: "\1F50D"; /* Código Unicode para el símbolo de lupa */
+    margin-right: 0.5em;
+  }
+  
+  /* Estilo para pantallas pequeñas (responsive) */
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 2em;
+    }
+  }
+  
